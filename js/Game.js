@@ -5,7 +5,7 @@ $(document).ready(function(){
     $('#btn_tab1_details').click(function(){
     
         var error_uname = '';
-        var filter = /^([a-zA-Z_\.\-]{2,15})+$/;
+        var filter = /^([a-zA-Z_\.\s*\-]{2,15})+$/;
         
         if($.trim($('#Uname').val()).length == 0)
         {
