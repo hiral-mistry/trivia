@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 $count++;
                 }
                 ?>
-                <p><?php echo $links; ?></p>
+
             </div>
             <!-- content -->
         </div>
